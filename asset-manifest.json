@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/useLocalStorage-hook/static/css/main.fb837545.css",
+    "main.js": "/useLocalStorage-hook/static/js/main.37ff1dd3.js",
+    "index.html": "/useLocalStorage-hook/index.html",
+    "main.fb837545.css.map": "/useLocalStorage-hook/static/css/main.fb837545.css.map",
+    "main.37ff1dd3.js.map": "/useLocalStorage-hook/static/js/main.37ff1dd3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb837545.css",
+    "static/js/main.37ff1dd3.js"
+  ]
+}
