@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export function useLocalStarage<T>(
+export function useLocalStorage<T>(
   key: string,
   startValue: T,
 ): [T, (v: T) => void] {

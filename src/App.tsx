@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles/main.scss';
 import styles from './styles/App.module.scss';
-import { useLocalStarage } from './hooks/useLocalStarage';
+import { useLocalStorage } from './hooks/useLocalStorage';
 
 export const App: React.FC = () => {
-  const [ids, setIds] = useLocalStarage<number[]>('ids', []);
+  const [ids, setIds] = useLocalStorage<number[]>('ids', []);
 
   const addValue = (value: number) => {
     setIds([...ids, value]);
